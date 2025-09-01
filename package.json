@@ -8,8 +8,7 @@
     "prebuild": "cross-env MEDIUM_HANDLE=Trend-AI node ./scripts/fetch-medium.mjs",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "postinstall": "tailwindcss init -p"
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "d3": "^7.9.0",
@@ -32,21 +31,13 @@
     "xml2js": "^0.6.2"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": ["react-app", "react-app/jest"]
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
