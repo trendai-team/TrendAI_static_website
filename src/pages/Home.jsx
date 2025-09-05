@@ -875,20 +875,57 @@ const Home = () => {
 
       
 
-      {/* FOOTER */}
-      <footer className="border-t border-white/10 bg-black/30">
-        <div className="max-w-6xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="text-white/80">© {new Date().getFullYear()} TrendAI · All rights reserved</div>
-          <nav className="flex items-center gap-6 text-white/70">
-            <a href="#top" className="hover:text-white">Overview</a>
-            <a href="#how" className="hover:text-white">How it works</a>
-            <a href="#use-cases" className="hover:text-white">Use cases</a>
-            <a href="#security" className="hover:text-white">Security</a>
-            <a href="#faq" className="hover:text-white">FAQ</a>
-            <a href="#contact" className="hover:text-white">Contact</a>
-          </nav>
-        </div>
-      </footer>
+            {/* FOOTER */}
+            <footer className="border-t border-white/10 bg-black/30">
+  <div className="max-w-6xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
+    <div className="text-white/80">
+      © {new Date().getFullYear()} TrendAI · All rights reserved
+    </div>
+
+    <nav className="flex items-center gap-6 text-white/70">
+      <a href="#top" className="hover:text-white">Overview</a>
+      <a href="#how" className="hover:text-white">How it works</a>
+      <a href="#contact" className="hover:text-white">Contact</a>
+
+      {/* Socials */}
+      <div className="flex items-center gap-4">
+        {/* X (Twitter) */}
+        <a
+          href="https://x.com/trendAI_XP"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-white"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+            className="w-5 h-5"
+          >
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.25l-5.177-6.803L4.9 21.75H1.59l7.73-8.84L1.134 2.25H7.91l4.713 6.231 5.62-6.231z" />
+          </svg>
+        </a>
+
+        {/* Telegram */}
+        <a
+          href="https://t.me/trendAI_XP"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-white"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+            className="w-5 h-5"
+          >
+            <path d="M9.964 15.64 9.6 20.18c.49 0 .705-.21.96-.46l2.3-2.2 4.77 3.48c.875.48 1.5.23 1.72-.81l3.12-14.65.001-.001c.277-1.29-.46-1.79-1.32-1.48L1.42 9.73c-1.27.49-1.25 1.19-.216 1.51l4.77 1.49 11.08-6.97c.52-.32.99-.14.6.18" />
+          </svg>
+        </a>
+      </div>
+    </nav>
+  </div>
+</footer>
     </div>
   );
 };
