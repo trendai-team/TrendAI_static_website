@@ -403,6 +403,9 @@ const Home = () => {
         </span>
         <h3 className="text-lg font-semibold">Understand</h3>
       </div>
+      <p className="mt-3 text-white/80">
+  Analyze tweets and market signals with AI—detect sentiment, spot emerging themes, and link tokens to real-time narratives.
+</p>
 
     </div>
 
