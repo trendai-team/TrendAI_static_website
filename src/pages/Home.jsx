@@ -404,7 +404,7 @@ const Home = () => {
         <h3 className="text-lg font-semibold">Understand</h3>
       </div>
       <p className="mt-3 text-white/80">
-  Analyze tweets and market signals with AI—detect sentiment, spot emerging themes, and link tokens to real-time narratives.
+      AI analyzes sentiment, trends, and token insights instantly.
 </p>
 
     </div>
@@ -423,7 +423,7 @@ const Home = () => {
         <h3 className="text-lg font-semibold">Act</h3>
       </div>
       <p className="mt-3 text-white/80">
-        Agentic post generator & scheduled threads—review, edit, publish.
+      Transform insights into impact with posts, alerts, and signals.
       </p>
     </div>
   </div>
