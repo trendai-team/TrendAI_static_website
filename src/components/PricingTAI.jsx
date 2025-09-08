@@ -8,7 +8,7 @@ export default function PricingTAI() {
       <div className="text-center max-w-2xl mx-auto">
         <p className="uppercase tracking-[0.18em] text-white/50 text-xs">Pricing</p>
         <h2 className="mt-2 text-2xl md:text-3xl font-semibold tracking-tight">
-          Coming Soon
+          Coming Soon...
         </h2>
         <p className="mt-3 text-white/70 text-sm">
           We’re finalizing our Free, Basic, and Pro subscription plans.  
